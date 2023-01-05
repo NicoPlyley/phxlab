@@ -3,3 +3,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::selection {
+    background: #329A68; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: #329A68; /* Gecko Browsers */
+}
