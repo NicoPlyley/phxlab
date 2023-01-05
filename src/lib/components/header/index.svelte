@@ -10,7 +10,7 @@
       background-size: cover;
       background-position: center center;
  `}
-	class="w-full pt-24 pb-12 {className}"
+	class="w-full {className}"
 >
 	<slot />
 </div>
