@@ -8,6 +8,7 @@ const config = {
       black: '#000',
       white: '#fff',
       primary: '#329A68',
+      text: '#11130E'
     },
     fontFamily: {
       main: ['Rubik', 'sans-serif']
