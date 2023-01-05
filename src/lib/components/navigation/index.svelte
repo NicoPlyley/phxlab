@@ -5,7 +5,7 @@
 	let open;
 </script>
 
-<nav class="fixed top-0 h-20 w-full bg-primary">
+<nav class="fixed top-0 h-20 w-full">
 	<Container class="my-auto flex h-full items-center justify-between">
 		<div class="flex items-center">
 			<Logo class="h-14" />
