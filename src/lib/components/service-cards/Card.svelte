@@ -7,7 +7,7 @@
 	export let idx;
 </script>
 
-<div class="flex w-1/4 flex-col rounded-2xl bg-white px-7 py-4">
+<div class="flex h-full flex-col rounded-2xl bg-white px-7 py-4">
 	<div class="h-1/4 w-full">
 		<div
 			class="m-auto flex h-20 w-20 items-center justify-center rounded-3xl {idx % 2 !== 0
