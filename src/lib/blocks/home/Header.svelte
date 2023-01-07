@@ -13,7 +13,7 @@
 		<Text class="mt-2.5 mb-5 w-full text-white md:my-7 md:text-lg lg:text-2xl"
 			>{data.description}</Text
 		>
-		<Button class="mx-auto w-auto text-text" link={data.button.link}>
+		<Button class="mx-auto w-auto text-text" white link={data.button.link}>
 			{data.button.title}
 		</Button>
 	</Container>
