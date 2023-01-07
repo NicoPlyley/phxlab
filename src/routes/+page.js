@@ -1,8 +1,8 @@
 export function load() {
 	return {
 		header: {
-			title: 'Boost Your Online Presence with Our Professional Web Design and SEO Services',
-			description: 'Transform your business with our expert website design and SEO strategies.',
+			title: "Phoenix's Premier Web Design Agency: Revitalizing Your Online Presence",
+			description: 'Transform your digital presence with our expert web design and SEO services.',
 			button: {
 				title: 'Start A Project',
 				link: '/contact'
