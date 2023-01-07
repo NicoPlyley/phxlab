@@ -9,4 +9,4 @@
 
 <About data={data.about} />
 
-<Services />
+<Services data={data.services} />
