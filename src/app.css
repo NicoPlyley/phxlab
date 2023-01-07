@@ -6,8 +6,10 @@
 
 ::selection {
     background: #329A68; /* WebKit/Blink Browsers */
+    color: #FFF;
 }
 
 ::-moz-selection {
     background: #329A68; /* Gecko Browsers */
+    color: #FFF;
 }
