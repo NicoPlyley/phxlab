@@ -49,6 +49,29 @@ export function load() {
 					link: '/services/logo-design'
 				}
 			]
+		},
+		portfolio: {
+			title: 'Our Portfolio',
+			cards: [
+				{
+					image: 'https://via.placeholder.com/490x340',
+					description:
+						'Energistically network mission-critical products via functional catalysts for change. Efficiently monetize cross functional potentialities rather than intermandated ROI. Holisticly conceptualize end-to-end niche markets for low-risk high-yield bandwidth. Professionally actualize.',
+					link: '/'
+				},
+				{
+					image: 'https://via.placeholder.com/490x340',
+					description:
+						'Energistically network mission-critical products via functional catalysts for change. Efficiently monetize cross functional potentialities rather than intermandated ROI. Holisticly conceptualize end-to-end niche markets for low-risk high-yield bandwidth. Professionally actualize.',
+					link: '/'
+				},
+				{
+					image: 'https://via.placeholder.com/490x340',
+					description:
+						'Energistically network mission-critical products via functional catalysts for change. Efficiently monetize cross functional potentialities rather than intermandated ROI. Holisticly conceptualize end-to-end niche markets for low-risk high-yield bandwidth. Professionally actualize.',
+					link: '/'
+				}
+			]
 		}
 	};
 }
