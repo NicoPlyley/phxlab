@@ -21,6 +21,7 @@
 		slidesPerView={1}
 		spaceBetween={10}
 		setWrapperSize={false}
+		loop={true}
 		breakpoints={{
 			// when window width is >= 320px
 			640: {
