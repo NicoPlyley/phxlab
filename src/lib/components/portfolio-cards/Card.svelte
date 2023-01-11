@@ -6,8 +6,8 @@
 	export let link;
 </script>
 
-<div class="card mb-7 rounded-xl bg-white">
-	<img src={image} class="max-h-[340px] w-full object-cover" alt="Test" />
+<div class="card mb-7 rounded-xl bg-white lg:m-0">
+	<img src={image} class="pointer-events-none max-h-[340px] w-full" alt="Test" />
 	<div class="p-7">
 		<Text>{description}</Text>
 		<Button class="mt-7 text-white" {link}>View Case Study</Button>
