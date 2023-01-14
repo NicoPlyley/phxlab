@@ -16,7 +16,7 @@
 	});
 </script>
 
-<div class="flex justify-center py-20">
+<div class="flex justify-center pt-10 pb-40 lg:py-20">
 	<Swiper
 		slidesPerView={1}
 		spaceBetween={10}
