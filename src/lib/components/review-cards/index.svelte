@@ -4,7 +4,7 @@
 	export let reviews;
 </script>
 
-<div class="flex gap-10">
+<div class="gap-10 md:flex">
 	{#each reviews as review}
 		<Card data={review} />
 	{/each}
