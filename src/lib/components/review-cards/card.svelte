@@ -5,7 +5,7 @@
 	let { author, message } = data;
 </script>
 
-<div class="card w-1/2 rounded-2xl p-5 lg:p-14">
+<div class="card mb-10 rounded-2xl p-5 md:w-1/2 lg:p-14">
 	<Text>
 		{message}
 	</Text>
