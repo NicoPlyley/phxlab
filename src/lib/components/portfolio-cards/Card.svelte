@@ -6,7 +6,7 @@
 	export let link;
 </script>
 
-<div class="card mb-7 rounded-xl bg-white lg:m-0">
+<div class="card mb-7 w-[350px] rounded-xl bg-white lg:m-0">
 	<img src={image} class="pointer-events-none max-h-[340px] w-full" alt="Test" />
 	<div class="p-7">
 		<Text>{description}</Text>
