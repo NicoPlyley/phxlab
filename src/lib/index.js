@@ -8,6 +8,7 @@ export { default as Text } from './components/text/index.svelte';
 export { default as Background } from './components/background/index.svelte';
 export { default as ServiceCards } from './components/service-cards/index.svelte';
 export { default as PortfolioCards } from './components/portfolio-cards/index.svelte';
+export { default as ReviewCards } from './components/review-cards/index.svelte';
 
 // Utils
 export { default as imageHandler } from './utils/imageHandler.js';
