@@ -4,7 +4,7 @@
 	export let data;
 </script>
 
-<div class="flex flex-wrap lg:flex-nowrap lg:gap-10">
+<div class="flex flex-wrap justify-center gap-10 lg:flex-nowrap">
 	{#each data as item}
 		<Card {...item} />
 	{/each}
