@@ -6,10 +6,11 @@ const config = {
   theme: {
     colors: {
       black: '#000',
-      white: '#fff',
+      white: '#FFFFFF',
       primary: '#329A68',
       secondary: '#A13C19',
-      text: '#11130E'
+      heading: '#11130E',
+      text: '#363636',
     },
     fontFamily: {
       main: ['Rubik', 'sans-serif']
