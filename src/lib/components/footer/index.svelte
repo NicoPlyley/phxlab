@@ -30,7 +30,7 @@
 			<div class="mb-10 lg:mb-0 lg:w-1/3">
 				<div class="flex items-center justify-center lg:justify-start">
 					<Logo class="h-14" />
-					<Text class="ml-6" type="h3">Phoenix Tech Lab</Text>
+					<Text class="ml-6 text-text" color type="h3">Phoenix <br />Tech Lab</Text>
 				</div>
 				<Text class="mt-7 text-center lg:text-left">{data.info.description}</Text>
 			</div>
