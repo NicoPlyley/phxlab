@@ -7,7 +7,13 @@
 </script>
 
 <div class="card mb-7 w-[350px] rounded-xl bg-white lg:m-0">
-	<img src={image} class="pointer-events-none max-h-[340px] w-full" alt="Test" />
+	<img
+		src={image}
+		width="350"
+		height="245"
+		class="pointer-events-none max-h-[340px] w-full"
+		alt="Test"
+	/>
 	<div class="p-7">
 		<Text>{description}</Text>
 		<Button class="mt-7 text-white" {link}>View Case Study</Button>

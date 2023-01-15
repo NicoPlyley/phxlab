@@ -6,6 +6,8 @@
 
 <Container class="gap-12 py-20 lg:flex">
 	<img
+		width="354"
+		height="200"
 		src={imageHandler('owners.webp', true)}
 		alt="About Phoenix Tech Lab"
 		class="w-full rounded-2xl object-cover lg:w-[600px]"
