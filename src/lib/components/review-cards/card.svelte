@@ -1,11 +1,11 @@
 <script>
 	import { Text } from '$lib';
 
-	export let data;
+	export let data = null;
 	let { author, message } = data;
 </script>
 
-<div class="card mb-10 rounded-2xl p-5 md:w-1/2 lg:p-14">
+<div class="card mb-10 flex flex-col justify-between rounded-2xl p-5 md:w-1/2 lg:p-14">
 	<Text>
 		{message}
 	</Text>
