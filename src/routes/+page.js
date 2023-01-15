@@ -1,5 +1,8 @@
 export function load() {
 	return {
+		title: "Phoenix's Premier Web Design Agency",
+		description:
+			'Our web design and SEO agency specializes in creating professional, effective websites and optimizing them for search engines to increase visibility and drive qualified traffic. Let our team of experts help your business succeed online.',
 		header: {
 			title: "Phoenix's Premier Web Design Agency: Revitalizing Your Online Presence",
 			description: 'Transform your digital presence with our expert web design and SEO services.',
