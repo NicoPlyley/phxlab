@@ -10,7 +10,7 @@ export function load() {
 			},
 			info: {
 				description:
-					'Our web design and SEO agency specializes in creating professional, effective websites and optimizing them for search engines to increase visibility and drive qualified traffic. Let our team of experts help your business succeed online.',
+					'Let Phoenix Tech Lab rebuild your website, rising from the ashes to a stronger, more effective online presence.',
 				links: {
 					facebook: 'https://www.facebook.com/yourbusiness',
 					twitter: 'https://twitter.com/yourbusiness',
