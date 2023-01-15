@@ -1,11 +1,12 @@
 export function load() {
 	return {
-		title: "Phoenix's Premier Web Design Agency",
+		title: 'Expert Web Development & SEO Solutions | Phoenix Tech Lab',
 		description:
-			'Our web design and SEO agency specializes in creating professional, effective websites and optimizing them for search engines to increase visibility and drive qualified traffic. Let our team of experts help your business succeed online.',
+			"Unleash the full potential of your business with Phoenix Tech Lab's web development and SEO services. Our team of experts will design and optimize a stunning website that will help you stand out online and increase your visibility on search engines. Contact us today to learn more.",
 		header: {
-			title: "Phoenix's Premier Web Design Agency: Revitalizing Your Online Presence",
-			description: 'Transform your digital presence with our expert web design and SEO services.',
+			title: 'Elevate Your Online Presence with our Web Development & SEO Services',
+			description:
+				'Expertly crafted websites and optimized search engine rankings for your business',
 			button: {
 				title: 'Start A Project',
 				link: '/contact'
