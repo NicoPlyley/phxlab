@@ -6,7 +6,7 @@
 </script>
 
 <div
-	class="relative pb-40"
+	class="relative pb-1 md:pb-40"
 	style={`
     background-image: url("${imageHandler('footer-bg.svg')}");
     background-size: cover;
