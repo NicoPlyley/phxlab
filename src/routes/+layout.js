@@ -1,5 +1,29 @@
 export function load() {
 	return {
+		navigation: {
+			links: [
+				{
+					title: 'Home',
+					link: '/'
+				},
+				{
+					title: 'About',
+					link: '/about'
+				},
+				{
+					title: 'Services',
+					link: '/services'
+				},
+				{
+					title: 'Portfolio',
+					link: '/portfolio'
+				},
+				{
+					title: 'Contact',
+					link: '/contact'
+				}
+			]
+		},
 		footer: {
 			title: 'What are you waiting for?',
 			description:
