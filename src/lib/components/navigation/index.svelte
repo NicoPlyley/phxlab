@@ -1,11 +1,18 @@
 <script>
-	import { Container, Logo } from '$lib';
+	import { fade } from 'svelte/transition';
+	import { Container, Logo, Text } from '$lib';
 	import { Hamburger } from 'svelte-hamburgers';
 
-	let open;
+	export let data;
+
+	let open = false;
 </script>
 
-<nav class="absolute top-0 h-20 w-full">
+<nav
+	class="top-0 h-20 w-full transition-colors {open && 'bg-primary'} {open
+		? 'fixed'
+		: 'absolute'} z-10"
+>
 	<Container class="my-auto flex h-full items-center justify-between">
 		<div class="flex items-center">
 			<Logo class="h-14" />
@@ -17,12 +24,32 @@
 		<div class="md:hidden">
 			<Hamburger bind:open --color="white" />
 		</div>
-		<div class="hidden justify-evenly gap-8 text-base text-white md:flex">
-			<a href="/">Home</a>
-			<a href="/about">About</a>
-			<a href="/services">Services</a>
-			<a href="/portfolio">Portfolio</a>
-			<a href="/contact">Contact</a>
+		<div class="hidden justify-evenly gap-8 text-base md:flex">
+			{#each data.links as item}
+				<Text color class="text-white"><a href={item.link}>{item.title}</a></Text>
+			{/each}
 		</div>
 	</Container>
+	{#if open}
+		<div
+			transition:fade={{ duration: 150 }}
+			class="mobile-nav fixed top-20 left-0 z-10 flex w-full flex-col bg-primary"
+		>
+			{#each data.links as item, idx}
+				<Text
+					color
+					class="w-full border-white/30 py-7 text-center text-2xl text-white {idx !==
+						data.links.length - 1 && 'border-b'}"
+				>
+					<a on:click={() => (open = false)} href={item.link}>{item.title}</a>
+				</Text>
+			{/each}
+		</div>
+	{/if}
 </nav>
+
+<style>
+	.mobile-nav {
+		height: calc(100vh - 80px);
+	}
+</style>

@@ -3,9 +3,9 @@
 	import { Footer, Navigation } from '$lib';
 
 	export let data = {};
-	let { footer } = data;
+	let { footer, navigation } = data;
 </script>
 
-<Navigation />
+<Navigation data={navigation} />
 <slot />
 <Footer data={footer} />
