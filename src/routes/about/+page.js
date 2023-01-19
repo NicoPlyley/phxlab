@@ -26,6 +26,37 @@ export function load() {
 				path: 'owners.webp',
 				dev: true
 			}
+		},
+		team: {
+			title: 'Meet The Core Team',
+			people: [
+				{
+					name: 'Nico Plyley',
+					title: 'Founder / Lead Project Manager',
+					image: {
+						path: 'nico-plyley.webp',
+						alt: 'Nico Plyley',
+						dev: true
+					}
+				},
+				{
+					name: 'Jonathan Nyquist',
+					title: 'Founder / Lead Project Manager',
+					image: {
+						path: 'jonathan-nyquist.webp',
+						alt: 'Jonathan Nyquist',
+						dev: true
+					}
+				},
+				{
+					name: 'Vibhor Thakral',
+					title: 'Frontend Engineer',
+					image: {
+						path: 'vibhor-thakral.webp',
+						alt: 'Vibhor Thakral'
+					}
+				}
+			]
 		}
 	};
 }
