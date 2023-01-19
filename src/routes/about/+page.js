@@ -9,7 +9,7 @@ export function load() {
 			title: 'Discover Phoenix Tech Lab',
 			subtitle: 'Web Development and SEO Experts in Revitalizing Websites',
 			image: {
-				path: 'header-desert.webp',
+				path: 'header-desert-2.webp',
 				dev: true
 			}
 		},
