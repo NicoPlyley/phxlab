@@ -11,6 +11,7 @@ export { default as PortfolioCards } from './components/portfolio-cards/index.sv
 export { default as ReviewCards } from './components/review-cards/index.svelte';
 export { default as Footer } from './components/footer/index.svelte';
 export { default as PageHeader } from './components/page-header/index.svelte';
+export { default as TeamCards } from './components/team-cards/index.svelte';
 
 // Utils
 export { default as imageHandler } from './utils/imageHandler.js';
