@@ -57,6 +57,21 @@ export function load() {
 					}
 				}
 			]
+		},
+		reviews: {
+			title: 'What Our Clients Say',
+			reviews: [
+				{
+					message:
+						'We recently had our website redesigned by Nico at Phoenix Tech Lab and we could not be happier. We are not very tech savvy, yet he knew just what we wanted and needed. He made many great suggestions for features that we would not have thought of. He helped us in the nicest possible way and never made us feel overwhelmed. I would highly recommend Nico at Phoenix Tech Lab for your website needs.',
+					author: 'Jeanette Harold'
+				},
+				{
+					message:
+						'I can’t thank Nico at Phoenix Tech Lab enough for helping and guiding me along the way in building my Online Stores. He has been instrumental in helping my business grow through the platform and services he offers. He’s professional, knowledgeable and easy to work with and I highly recommend him.',
+					author: 'Tim Heimbach'
+				}
+			]
 		}
 	};
 }
