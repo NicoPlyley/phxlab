@@ -1,12 +1,12 @@
 <script>
-	import { Container, Header, Text } from '$lib';
+	import { Container, Header, Text, tw } from '$lib';
 
 	export let image = '';
 	export let data = {};
 	let { title, subtitle } = data;
 </script>
 
-<Header class="h-[500px]" background={image}>
+<Header class={tw('h-[300px]', 'lg:h-[400px]')} background={image}>
 	<Container class="flex h-full items-center justify-center">
 		<Text type="h1" color class="text-center text-white">
 			{title}
