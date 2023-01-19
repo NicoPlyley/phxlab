@@ -6,7 +6,7 @@
 
 <Container class={tw('flex flex-col gap-10 py-14', 'xl:flex-row')}>
 	<img
-		class={tw('w-full object-cover pb-4', 'xl:pb-0')}
+		class={tw('w-full object-cover pb-4 rounded-2xl', 'xl:pb-0')}
 		src={imageHandler(data.image.path, data.image.dev)}
 		alt={data.image.alt}
 	/>
