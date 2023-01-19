@@ -1,8 +1,9 @@
 <script>
 	import { About, Header, Team } from '$lib/blocks/about';
+	import { Reviews } from '$lib/blocks/home';
 
 	export let data = {};
-	let { seo, header, about, team } = data;
+	let { seo, header, about, team, reviews } = data;
 </script>
 
 <svelte:head>
@@ -15,3 +16,5 @@
 <About data={about} />
 
 <Team data={team} />
+
+<Reviews data={reviews} />
