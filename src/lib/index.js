@@ -14,3 +14,4 @@ export { default as PageHeader } from './components/page-header/index.svelte';
 
 // Utils
 export { default as imageHandler } from './utils/imageHandler.js';
+export { default as tw } from './utils/tw.js';
