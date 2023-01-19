@@ -6,7 +6,7 @@
 </script>
 
 <div class="mb-7 overflow-hidden rounded-2xl bg-white">
-	<img src={imageHandler(image.path, image.dev)} alt={image.alt} />
+	<img src={imageHandler(image.path, image.dev)} alt={image.alt} class="pointer-events-none" />
 	<div class="py-4 text-center">
 		<Text type="h3">
 			{name}
