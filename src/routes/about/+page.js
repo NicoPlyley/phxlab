@@ -56,7 +56,7 @@ load = async ({ fetch }) => {
           name: 'Vibhor Thakral',
           title: 'Frontend Engineer',
           image: {
-            path: 'vibhor-thakral.webp',
+            path: '/about/team/vibhor-thakral.webp',
             alt: 'Vibhor Thakral',
           },
         },
