@@ -14,13 +14,15 @@
 		: 'absolute'} z-10"
 >
   <Container class="my-auto flex h-full items-center justify-between">
-    <div class="flex items-center">
+    <a class="flex items-center"
+       href="/"
+    >
       <Logo class="h-14" />
       <p class="ml-2.5 select-none font-bold leading-4 text-white">
         Phoenix<br />
         Tech Lab
       </p>
-    </div>
+    </a>
     <div class="md:hidden">
       <Hamburger --color="white"
                  bind:open
