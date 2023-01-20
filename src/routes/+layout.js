@@ -35,7 +35,7 @@ load = () => {
       },
       info: {
         description:
-          'Let Phoenix Tech Lab rebuild your website, rising from the ashes to a stronger, more effective online presence.',
+          'Web Development and SEO Experts in Revitalizing Websites',
         links: {
           facebook: 'https://www.facebook.com/yourbusiness',
           twitter: 'https://twitter.com/yourbusiness',
