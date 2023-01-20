@@ -50,7 +50,10 @@
   </Container>
   <div class="absolute bottom-0 w-full bg-black/80 py-4">
     <Container class="flex justify-center">
-      <Text class="text-white">&copy; Phoenix Tech Lab 2023 All Rights Reserved</Text>
+      <Text class="text-white"
+            color
+      >&copy; Phoenix Tech Lab 2023 All Rights Reserved
+      </Text>
     </Container>
   </div>
 </div>
