@@ -32,6 +32,7 @@ load = async ({ fetch }) => {
     },
     team: {
       title: 'Meet The Core Team',
+      background: '/about/cactus-background.webp',
       people: [
         {
           name: 'Nico Plyley',
