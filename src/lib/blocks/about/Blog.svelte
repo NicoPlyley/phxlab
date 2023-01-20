@@ -5,7 +5,7 @@
   const { title, blog } = data;
 </script>
 
-<div class="mb-40 py-20">
+<div class="mb-20 py-20">
   <Container>
     <Text class="text-center pb-7"
           type="h2"
