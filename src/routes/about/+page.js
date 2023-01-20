@@ -79,6 +79,7 @@ load = async ({ fetch }) => {
     },
     blog: {
       title: 'Latest Blog Posts',
+      background: '/about/the-wave.webp',
       blog,
     },
   };
