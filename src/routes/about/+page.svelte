@@ -1,9 +1,10 @@
 <script>
   import { About, Blog, Header, Team } from '$lib/blocks/about';
   import { Reviews } from '$lib/blocks/home';
+  import Faqs from '$lib/blocks/about/Faqs.svelte';
 
   export let data = {};
-  const { seo, header, about, team, reviews, blog } = data;
+  const { seo, header, about, team, reviews, blog, faqs } = data;
 </script>
 
 <svelte:head>
@@ -22,3 +23,5 @@
 <Reviews data={reviews} />
 
 <Blog data={blog} />
+
+<Faqs data={faqs} />
