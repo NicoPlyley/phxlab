@@ -6,21 +6,21 @@ GET = async () => {
 
   const posts = [
     {
-      title: 'Post 1',
+      title: 'How to add an SSL certificate to any website',
       link: 'post-1',
-      date: '2020-01-01',
+      date: '2023-01-02 00:00:00',
       image: { path: 'blog.webp', alt: 'Blog Post', dev: true },
     },
     {
-      title: 'Post 2',
+      title: 'Why custom-built websites are better than template-based solutions',
       link: 'post-2',
-      date: '2020-01-02',
+      date: '2023-01-09 00:00:00',
       image: { path: 'blog.webp', alt: 'Blog Post', dev: true },
     },
     {
-      title: 'Post 3',
+      title: 'The role of SEO in website development',
       link: 'post-3',
-      date: '2020-01-03',
+      date: '2023-01-16 00:00:00',
       image: { path: 'blog.webp', alt: 'Blog Post', dev: true },
     },
   ];
