@@ -1,12 +1,14 @@
 <script>
-	import { About, Header, Portfolio, Reviews, Services } from '$lib/blocks/home';
+  import { About, Header, Portfolio, Reviews, Services } from '$lib/blocks/home';
 
-	export let data;
+  export let data;
 </script>
 
 <svelte:head>
-	<title>{data.title}</title>
-	<meta name="description" content={data.description} />
+  <title>{data.title}</title>
+  <meta content={data.description}
+        name="description"
+  />
 </svelte:head>
 
 <Header data={data.header} />

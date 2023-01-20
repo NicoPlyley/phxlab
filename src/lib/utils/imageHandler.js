@@ -1,11 +1,11 @@
 const imageHandler = (path, dev = false) => {
-	let base = 'https://cdn.phxlab.io';
-	let url = `${base}/${path}`;
-	if (dev) {
-		url = `${base}/development/${path}`;
-	}
+  let base = 'https://cdn.phxlab.io';
+  let url = `${base}/${path}`;
+  if (dev) {
+    url = `${base}/development/${path}`;
+  }
 
-	return url;
+  return url;
 };
 
 export default imageHandler;

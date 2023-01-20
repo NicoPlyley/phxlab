@@ -1,7 +1,9 @@
+// noinspection JSUnusedLocalSymbols
+
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 const config = {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: [ './src/**/*.{html,js,svelte,ts}' ],
 
   theme: {
     colors: {
@@ -13,7 +15,7 @@ const config = {
       text: '#363636',
     },
     fontFamily: {
-      main: ['Rubik', 'sans-serif']
+      main: [ 'Rubik', 'sans-serif' ],
     },
   },
 

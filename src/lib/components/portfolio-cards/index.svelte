@@ -1,11 +1,11 @@
 <script>
-	import Card from './Card.svelte';
+  import Card from './Card.svelte';
 
-	export let data;
+  export let data;
 </script>
 
 <div class="flex flex-wrap justify-center gap-10 lg:flex-nowrap">
-	{#each data as item}
-		<Card {...item} />
-	{/each}
+  {#each data as item}
+    <Card {...item} />
+  {/each}
 </div>

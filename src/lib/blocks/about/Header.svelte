@@ -1,7 +1,9 @@
 <script>
-	import { imageHandler, PageHeader } from '$lib';
+  import { imageHandler, PageHeader } from '$lib';
 
-	export let data = {};
+  export let data = {};
 </script>
 
-<PageHeader image={imageHandler(data.image.path, data.image.dev)} {data} />
+<PageHeader {data}
+            image={imageHandler(data.image.path, data.image.dev)}
+/>
