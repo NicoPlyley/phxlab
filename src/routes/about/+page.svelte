@@ -1,8 +1,8 @@
 <script>
-	import { About, Blog, Header, Team } from '$lib/blocks/about';
-	import { Reviews } from '$lib/blocks/home';
+  import { About, Blog, Header, Team } from '$lib/blocks/about';
+  import { Reviews } from '$lib/blocks/home';
 
-	export let data = {};
+  export let data = {};
   const { seo, header, about, team, reviews, blog } = data;
 </script>
 

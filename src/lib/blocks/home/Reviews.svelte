@@ -1,12 +1,14 @@
 <script>
-	import { Container, ReviewCards, Text } from '$lib';
+  import { Container, ReviewCards, Text } from '$lib';
 
-	export let data = {};
-	let { title, reviews } = data;
+  export let data = {};
+  let { title, reviews } = data;
 </script>
 
 <Container class="mb-10">
-	<Text class="mb-12 text-center text-text" type="h2">{title}</Text>
+  <Text class="mb-12 text-center text-text"
+        type="h2"
+  >{title}</Text>
 
-	<ReviewCards {reviews} />
+  <ReviewCards {reviews} />
 </Container>
