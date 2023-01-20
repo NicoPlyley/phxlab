@@ -1,14 +1,16 @@
 <script>
-	import { About, Header, Team } from '$lib/blocks/about';
+	import { About, Blog, Header, Team } from '$lib/blocks/about';
 	import { Reviews } from '$lib/blocks/home';
 
 	export let data = {};
-	let { seo, header, about, team, reviews } = data;
+  const { seo, header, about, team, reviews, blog } = data;
 </script>
 
 <svelte:head>
-	<title>{seo.title}</title>
-	<meta name="description" content={seo.description} />
+  <title>{seo.title}</title>
+  <meta content={seo.description}
+        name="description"
+  />
 </svelte:head>
 
 <Header data={header} />
@@ -18,3 +20,5 @@
 <Team data={team} />
 
 <Reviews data={reviews} />
+
+<Blog data={blog} />
