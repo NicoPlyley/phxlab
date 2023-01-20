@@ -82,5 +82,30 @@ load = async ({ fetch }) => {
       background: '/about/the-wave.webp',
       blog,
     },
+    faqs: {
+      title: 'Frequently Asked Questions',
+      faqs: [
+        {
+          question: 'What is Phoenix Tech Lab?',
+          answer: 'Phoenix Tech Lab is a web development and SEO agency that specializes in rebuilding websites and rising from the ashes to a stronger online presence. Our team of experts will design and optimize a stunning website that will help you stand out online and increase your visibility on search engines.',
+        },
+        {
+          question: 'When was Phoenix Tech Lab founded?',
+          answer: 'Phoenix Tech Lab was founded in 2012, under the name LuxWay. We started as a video production company, but as the digital landscape evolved, in 2015 we saw an opportunity to expand our services to include website development. In 2022, we rebranded to Phoenix Tech Lab to reflect our new focus and mission.',
+        },
+        {
+          question: 'Who founded Phoenix Tech Lab?',
+          answer: 'Phoenix Tech Lab was founded by Nico Plyley and Jonathan Nyquist, who bring a wealth of experience and expertise in website development and SEO. Together, they have led Phoenix Tech Lab to become a leading agency in the industry.',
+        },
+        {
+          question: 'What services does Phoenix Tech Lab offer?',
+          answer: 'Phoenix Tech Lab offers website development, SEO, logo design, and hosting solutions. We use top-of-the-line JavaScript frameworks that are usually used by large tech companies for all our website development projects and run our websites on edge hosting. We also offer custom server solutions for clients who need more resources.',
+        },
+        {
+          question: 'Why is Phoenix Tech Lab different from other web development agencies?',
+          answer: 'Phoenix Tech Lab is different because we use the latest technologies and design trends to deliver the highest quality results.',
+        },
+      ],
+    },
   };
 };
