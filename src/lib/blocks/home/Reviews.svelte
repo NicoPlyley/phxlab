@@ -1,7 +1,7 @@
 <script>
 	import { Container, ReviewCards, Text } from '$lib';
 
-	export let data;
+	export let data = {};
 	let { title, reviews } = data;
 </script>
 
