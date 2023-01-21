@@ -14,7 +14,11 @@ export { default as PageHeader } from './components/page-header/index.svelte';
 export { default as TeamCards } from './components/team-cards/index.svelte';
 export { default as BlogCards } from './components/blog-cards/index.svelte';
 export { default as Faqs } from './components/faqs/index.svelte';
+export { default as Contact } from './components/contact/index.svelte';
 
 // Utils
 export { default as imageHandler } from './utils/imageHandler.js';
 export { default as tw } from './utils/tw.js';
+
+// Stores
+export { contactInfoStore } from './store';
