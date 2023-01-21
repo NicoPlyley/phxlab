@@ -4,7 +4,7 @@
   export let data = {};
 </script>
 
-<div class="my-7 mb-14 py-10 bg"
+<div class="my-16 py-10 bg"
      style={`
       background: linear-gradient(0deg, rgba(27, 124, 77, 0.90), rgba(27, 124, 77, 0.90)), url(${imageHandler(data.background, true)});
       background-position: center center;
