@@ -22,6 +22,6 @@
 
 <Reviews data={reviews} />
 
-<Blog data={blog} />
-
 <Faqs data={faqs} />
+
+<Blog data={blog} />
