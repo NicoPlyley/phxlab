@@ -1,7 +1,6 @@
 <script>
-  import { About, Blog, Header, Team } from '$lib/blocks/about';
+  import { About, Blog, Contact, Faqs, Header, Team } from '$lib/blocks/about';
   import { Reviews } from '$lib/blocks/home';
-  import Faqs from '$lib/blocks/about/Faqs.svelte';
 
   export let data = {};
   const { seo, header, about, team, reviews, blog, faqs } = data;
@@ -25,3 +24,5 @@
 <Faqs data={faqs} />
 
 <Blog data={blog} />
+
+<Contact />
