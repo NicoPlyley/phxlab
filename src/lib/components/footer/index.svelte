@@ -1,5 +1,5 @@
 <script>
-  import { Button, Container, imageHandler, Logo, Text } from '$lib';
+  import { Button, Container, imageHandler, Logo, Text, tw } from '$lib';
   import List from './List.svelte';
 
   export let data;
@@ -39,6 +39,27 @@
           </Text>
         </div>
         <Text class="mt-7 text-center lg:text-left">{data.info.description}</Text>
+        <div class={tw(
+          'flex mt-4 items-center justify-center flex-wrap',
+          'md:flex-nowrap md:justify-start'
+          )}
+        >
+          <Text class={tw(
+            'mr-2 w-full text-center mb-4',
+            'md:text-left md:w-auto md:mb-0'
+            )}
+          >Follow Us:
+          </Text>
+          {#each data.info.social as item}
+            <a class="h-7 w-7 mx-2 fill-text block"
+               href={item.url}
+               target="_blank"
+               rel="noreferrer"
+            >
+              {@html item.icon}
+            </a>
+          {/each}
+        </div>
       </div>
       {#each data.lists as list, idx}
         <List title={list.title}
