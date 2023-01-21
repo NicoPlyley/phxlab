@@ -4,8 +4,8 @@
   import TextArea from './TextArea.svelte';
 </script>
 
-<div class={tw(
-  'contact flex rounded-2xl flex-wrap',
+<div class={'contact ' + tw(
+  'flex rounded-2xl flex-wrap',
   'lg:flex-nowrap'
   )}
 >
@@ -92,3 +92,9 @@
     </div>
   </div>
 </div>
+
+<style>
+    .contact {
+        box-shadow: 0 10px 80px rgba(29, 74, 133, 0.07);
+    }
+</style>
