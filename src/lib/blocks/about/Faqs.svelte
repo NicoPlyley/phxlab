@@ -5,7 +5,7 @@
   const { title, faqs } = data;
 </script>
 
-<Container>
+<Container class="my-16">
   <div class={tw(
     "rounded-2xl",
     "lg:bg-tertiary-90 lg:p-32"

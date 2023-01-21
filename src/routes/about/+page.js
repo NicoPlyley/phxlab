@@ -36,7 +36,7 @@ load = async ({ fetch }) => {
       people: [
         {
           name: 'Nico Plyley',
-          title: 'Founder / Lead Project Manager',
+          title: 'Founder / Lead Software Engineer',
           image: {
             path: 'nico-plyley.webp',
             alt: 'Nico Plyley',

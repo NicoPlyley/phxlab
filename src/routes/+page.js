@@ -67,7 +67,9 @@ load = () => {
         {
           image: 'https://via.placeholder.com/490x340',
           description:
-            'Energistically network mission-critical products via functional catalysts for change. Efficiently monetize cross functional potentialities rather than intermandated ROI. Holisticly conceptualize end-to-end niche markets for low-risk high-yield bandwidth. Professionally actualize.',
+            'Energistically network mission-critical products via functional catalysts for change. Efficiently' +
+            ' monetize cross functional potentialities rather than intermandated ROI. Holisticly conceptualize' +
+            ' end-to-end niche markets for low-risk high-yield bandwidth. Professionally actualize.',
           link: '/',
         },
         {
@@ -83,12 +85,17 @@ load = () => {
       reviews: [
         {
           message:
-            'We recently had our website redesigned by Nico at Phoenix Tech Lab and we could not be happier. We are not very tech savvy, yet he knew just what we wanted and needed. He made many great suggestions for features that we would not have thought of. He helped us in the nicest possible way and never made us feel overwhelmed. I would highly recommend Nico at Phoenix Tech Lab for your website needs.',
+            'We recently had our website redesigned by Phoenix Tech Lab and we could not be happier. We are not very' +
+            ' tech savvy, yet they knew just what we wanted and needed. They made many great suggestions for features' +
+            ' that we would not have thought of. They helped us in the nicest possible way and never made us feel' +
+            ' overwhelmed. I would highly recommend Phoenix Tech Lab for your website needs.',
           author: 'Jeanette Harold',
         },
         {
           message:
-            'I can’t thank Nico at Phoenix Tech Lab enough for helping and guiding me along the way in building my Online Stores. He has been instrumental in helping my business grow through the platform and services he offers. He’s professional, knowledgeable and easy to work with and I highly recommend him.',
+            'I can’t thank Phoenix Tech Lab enough for helping and guiding me along the way in building my Online' +
+            ' Stores. They has been instrumental in helping my business grow through the platform and services they' +
+            ' offers. They\'re professional, knowledgeable and easy to work with and I highly recommend them.',
           author: 'Tim Heimbach',
         },
       ],

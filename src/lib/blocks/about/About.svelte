@@ -4,7 +4,7 @@
   export let data = {};
 </script>
 
-<Container class={tw('flex flex-col gap-10 py-14', 'xl:flex-row')}>
+<Container class={tw('flex flex-col gap-10 my-16', 'xl:flex-row')}>
   <img
     alt={data.image.alt}
     class={tw('w-full object-cover pb-4 rounded-2xl', 'xl:pb-0')}

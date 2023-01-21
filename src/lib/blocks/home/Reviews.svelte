@@ -5,7 +5,7 @@
   let { title, reviews } = data;
 </script>
 
-<Container class="mb-10">
+<Container class="my-16">
   <Text class="mb-12 text-center text-text"
         type="h2"
   >{title}</Text>
