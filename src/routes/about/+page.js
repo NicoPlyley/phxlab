@@ -86,8 +86,8 @@ load = async ({ fetch }) => {
       title: 'Frequently Asked Questions',
       faqs: [
         {
-          question: 'What is Phoenix Tech Lab?',
-          answer: 'Phoenix Tech Lab is a web development and SEO agency that specializes in rebuilding websites and rising from the ashes to a stronger online presence. Our team of experts will design and optimize a stunning website that will help you stand out online and increase your visibility on search engines.',
+          question: 'Who is Phoenix Tech Lab?',
+          answer: 'Phoenix Tech Lab is a web development and SEO agency that specializes in revitalizing websites, helping them to stand out online and increase visibility on search engines. Our team of experts will design and optimize a stunning website that will help you to achieve your online goals.',
         },
         {
           question: 'When was Phoenix Tech Lab founded?',
@@ -103,7 +103,7 @@ load = async ({ fetch }) => {
         },
         {
           question: 'Why is Phoenix Tech Lab different from other web development agencies?',
-          answer: 'Phoenix Tech Lab is different because we use the latest technologies and design trends to deliver the highest quality results.',
+          answer: 'Phoenix Tech Lab is different because we provide custom-built solutions that are tailored to the unique needs of each client. Unlike template-based solutions, custom-built websites can be optimized for SEO, branding, and scalability. They also offer greater flexibility and control over the design and functionality of the website. Our team of experts will work with you to understand your specific needs and goals, and then create a website that meets those needs and exceeds your expectations.',
         },
       ],
     },
