@@ -1,13 +1,11 @@
 // noinspection JSUnusedGlobalSymbols
 
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-cloudflare';
 import preprocess from 'svelte-preprocess';
 
 const config = {
   kit: {
-    adapter: adapter({
-      strict: false,
-    }),
+    adapter: adapter(),
   },
   preprocess: [
     preprocess({
