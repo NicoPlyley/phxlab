@@ -1,3 +1,4 @@
+export const prerender = true;
 export let load;
 load = () => {
   return {
