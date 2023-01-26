@@ -71,10 +71,25 @@
     </div>
   </Container>
   <div class="absolute bottom-0 w-full bg-black/80 py-4">
-    <Container class="flex justify-center">
+    <Container class="flex justify-between flex-wrap">
       <Text class="text-white"
             color
       >&copy; Phoenix Tech Lab 2023 All Rights Reserved
+      </Text>
+      <Text class="text-white"
+            color
+      >
+        <a class="hover:underline"
+           href="/privacy"
+        >
+          Privacy Policy
+        </a>
+        <span class="px-2"> | </span>
+        <a class="hover:underline"
+           href="/terms"
+        >
+          Terms &amp; Conditions
+        </a>
       </Text>
     </Container>
   </div>

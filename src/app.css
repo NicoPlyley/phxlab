@@ -14,3 +14,7 @@
     background: #329A68; /* Gecko Browsers */
     color: #FFF;
 }
+
+html {
+    font-family: 'Rubik', sans-serif;
+}
