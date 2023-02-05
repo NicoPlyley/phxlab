@@ -5,7 +5,7 @@
 </script>
 
 <div class={'contact ' + tw(
-  'flex rounded-2xl flex-wrap',
+  'flex rounded-2xl flex-wrap overflow-hidden max-w-[1265px] mx-auto',
   'lg:flex-nowrap'
   )}
 >
@@ -62,7 +62,7 @@
   </div>
 
   <!-- Contact Form -->
-  <div class="flex w-full justify-center py-20">
+  <div class="flex w-full justify-center py-20 bg-white">
     <div class="flex flex-col gap-4 justify-center">
       <div class={tw(
         'flex gap-4 flex-col',
@@ -92,9 +92,3 @@
     </div>
   </div>
 </div>
-
-<style>
-    .contact {
-        box-shadow: 0 10px 80px rgba(29, 74, 133, 0.07);
-    }
-</style>
