@@ -62,33 +62,31 @@
   </div>
 
   <!-- Contact Form -->
-  <div class="flex w-full justify-center py-20 bg-white">
-    <div class="flex flex-col gap-4 justify-center">
-      <div class={tw(
+  <div class="flex flex-col gap-4 justify-center w-[90%] lg:w-auto  mx-auto py-24">
+    <div class={tw(
         'flex gap-4 flex-col',
         'sm:flex-row sm:gap-10',
         'lg:flex-row lg:gap-10'
         )}
-      >
-        <Input placeholder="First Name" />
-        <Input placeholder="Last Name" />
-      </div>
-      <div class={tw(
+    >
+      <Input placeholder="First Name" />
+      <Input placeholder="Last Name" />
+    </div>
+    <div class={tw(
         'flex gap-4 flex-col',
         'sm:flex-row sm:gap-10',
         'lg:flex-row lg:gap-10'
         )}
-      >
-        <Input placeholder="Email Address" />
-        <Input placeholder="Phone Number" />
-      </div>
-      <Input full
-             placeholder="Current Website"
-      />
-      <TextArea placeholder="Message" />
-      <div>
-        <Button class="text-white">Send Message</Button>
-      </div>
+    >
+      <Input placeholder="Email Address" />
+      <Input placeholder="Phone Number" />
+    </div>
+    <Input full
+           placeholder="Current Website"
+    />
+    <TextArea placeholder="Message" />
+    <div>
+      <Button class="text-white">Send Message</Button>
     </div>
   </div>
 </div>
