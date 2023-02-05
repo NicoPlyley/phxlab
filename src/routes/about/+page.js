@@ -6,7 +6,7 @@ load = async ({ fetch }) => {
     seo: {
       title: 'Discover Phoenix Tech Lab | Web Development & SEO Agency',
       description:
-        'Discover the team, mission and services behind Phoenix Tech Lab, the web development and SEO agency that specializes in rebuilding websites and rising from the ashes to a stronger online presence. Learn more about us and how we can help your business succeed.',
+        'Your go-to web design & SEO agency. Revamp your website for a stronger online presence. Discover our team, mission & services.',
     },
     header: {
       title: 'Discover Phoenix Tech Lab',

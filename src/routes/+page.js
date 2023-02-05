@@ -3,7 +3,7 @@ load = () => {
   return {
     title: 'Expert Web Development & SEO Solutions | Phoenix Tech Lab',
     description:
-      'Unleash the full potential of your business with Phoenix Tech Lab\'s web development and SEO services. Our team of experts will design and optimize a stunning website that will help you stand out online and increase your visibility on search engines. Contact us today to learn more.',
+      'Get a stunning and user-friendly website with our expert web design services. Boost your online presence and drive more traffic with our SEO-optimized solutions.',
     header: {
       title: 'Elevate Your Online Presence with our Web Development & SEO Services',
       description:
