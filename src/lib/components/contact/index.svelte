@@ -5,7 +5,7 @@
 </script>
 
 <div class={'contact ' + tw(
-  'flex rounded-2xl flex-wrap overflow-hidden max-w-[1265px] mx-auto',
+  'flex rounded-2xl flex-wrap overflow-hidden max-w-[1265px] mx-auto shadow-[0_10px_80px_rgba(29,74,133,0.07)]',
   'lg:flex-nowrap'
   )}
 >
