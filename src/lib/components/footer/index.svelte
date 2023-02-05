@@ -45,12 +45,6 @@
           'md:flex-nowrap md:justify-start'
           )}
         >
-          <Text class={tw(
-            'mr-2 w-full text-center mb-4',
-            'md:text-left md:w-auto md:mb-0'
-            )}
-          >Follow Us:
-          </Text>
           {#each data.info.social as item}
             <a class="h-7 w-7 mx-2 fill-text block"
                href={item.url}
